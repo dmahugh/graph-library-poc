@@ -28,4 +28,17 @@ After running the web app, you can run the samples in ```samples.py```. Note tha
 
 # Documentation
 
-TBD - will have some simple documentation here shortly
+The following is a high-level overview but not complete documentation. More to come.
+
+## Source Code Organization
+
+The graphhelper package is implemented in three source files:
+
+* *connect.py* contains the class definitions for the GraphConnection abstract base class and the UserConnect and AppConnect classes that derive from it.
+* *userhelpers.py* contains helper functions and classes for UserConnect applications – i.e., applications that get their Graph access tokens through an authenticated user identity.
+* *apphelpers.py* contains helper functions and classes for AppConnect applications, which use app-only authentication via the OAuth 2.0 Client Credentials workflow.
+
+After you've run the ```webapp.py``` sample app and authenticated, you'll have a cached token to work with. You should then be able to import graphhelper:
+
+![getting started](images/gettingstarted.png)
+ 
