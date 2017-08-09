@@ -1,0 +1,11 @@
+{
+    "app_name": "APP_NAME_HERE",
+    "app_id": "APP_ID_HERE",
+    "app_secret": "APP_SECRET_HERE",
+    "scope": "https://graph.microsoft.com/.default",
+    "api_base": "https://graph.microsoft.com/beta/",
+    "token_url": "https://login.microsoftonline.com/common/oauth2/v2.0/token",
+    "redirect_uri": "http://localhost:5000",
+    "tenant_id": "TENANT_ID_HERE",
+    "grant_type": "client_credentials"
+}
