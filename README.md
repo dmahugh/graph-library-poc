@@ -28,9 +28,8 @@ After running the web app, you can run the samples in ```samples.py```. Note tha
 
 # Documentation
 
-The following is a high-level overview but not complete documentation. More to come.
-
-## Source Code Organization
+There is no documentation yet, but you can get a feel for some of the capabilities of
+the graphhelper module by reading and running the code in ```samples.py```.
 
 The graphhelper package is implemented in three source files:
 
